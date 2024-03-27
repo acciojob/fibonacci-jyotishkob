@@ -5,7 +5,10 @@ function fibonacci(num) {
   let nval;
 	if (num <=1){
 		return 0;
-	}else{
+	}else if(num == 2){
+		return 1;
+	}
+	else{
 		for (let i=2; i<num; i++){
 	    nval = value+value2;
 	    value = value2
